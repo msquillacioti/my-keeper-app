@@ -5,7 +5,7 @@ import App from './components/App';
 // Attempt to reference fonts from googleapis.
 import 'https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap';
 
-import 'index.css';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
