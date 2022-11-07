@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App';
 
 // Attempt to reference fonts from googleapis.
-import 'https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap';
+const externalFonts = await import('https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap');
 
 import './index.css';
 
